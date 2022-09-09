@@ -32,13 +32,13 @@
 //     };
 // }
 // console.dir(Person);
-console.dir(document);
 
-document.querySelector("#div_home").onclick=function () {
-    location.pathname="/page1.html";
+document.querySelector("#button_of_page1").onclick=function () {
+    location.pathname="/page2.html";
 }
-document.querySelector("#div_page1").onclick=function () {
-    location.pathname="/index.html";
+
+document.querySelector("#button_of_page2").onclick=function () {
+    location.pathname="/page1.html";
 }
 
 

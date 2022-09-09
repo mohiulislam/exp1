@@ -3,7 +3,9 @@ div{
     width: 100px;
     background: rgb(188, 48, 48);
 }
-
+button{
+    margin-top: 50px;
+}
 a{
-    padding-left: 50px;
+    margin-left: 50px;
 }
